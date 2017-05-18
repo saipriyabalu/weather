@@ -4,7 +4,9 @@ A Weather Client Using XML
 
 Application overview:
 This application will connect to the National Weather Service web site using XML and SOAP to display current weather conditions. The user inputs Latitude and Longitude values and gets the Probability of precipitation, Dew Point, Wave Direction and Wind Speed as the output for the given location. In the background, the application makes a SOAP request to WSDL and connects to the resources of the National Weather Service web site. Now, we passed NDFDgen function to get the required parameters based on latitude and longitude. 
+
 Tools used: Eclipse IDE (Version: Neon.2 Release (4.6.2)), Java Version 8 Update 121, Tomcat Server (Version 7.0)
+
 Project file: weather.java
 
 Features:
@@ -12,11 +14,6 @@ Features:
 •	Client displays correct weather information (Shows 4 variables)
 •	Session disconnects after fetching data
 •	Client reconnects on command for a refresh
-
-Steps for setup:
-1.	Unzip Thirvakadu_3543 folder on your desktop. 
-2.	Open Eclipse IDE and click on File-> New -> Other-> Java-> Java Project-> Enter Project Name-> Finish
-3.	Now import the project, File-> import->General->FileSystem->Browse the Folder -> Browse the Project which you just created-> Finish
 
 Steps to run the program:
 1.	Once you configure the workspace run the code by clicking the Run icon and select the Java Application to run 
